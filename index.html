@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency App</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+
+<body
+  class="h-screen bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center overflow-hidden">
+
+  <!-- Background Blur -->
+  <div
+    class="absolute top-0 left-0 w-72 h-72 bg-white/20 rounded-full blur-3xl">
+  </div>
+
+  <div
+    class="absolute bottom-0 right-0 w-80 h-80 bg-pink-300/20 rounded-full blur-3xl">
+  </div>
+
+  <!-- Main Card -->
+  <div
+    class="relative z-10 bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl rounded-3xl p-10 w-[90%] max-w-md text-center">
+
+    <!-- App Icon -->
+    <div
+      class="w-24 h-24 mx-auto rounded-2xl bg-white/20 flex items-center justify-center text-5xl shadow-lg mb-6">
+      💱
+    </div>
+
+    <!-- Title -->
+    <h1 class="text-4xl font-bold text-white mb-3">
+      Currency App
+    </h1>
+
+    <!-- Description -->
+    <p class="text-white/80 text-sm leading-relaxed mb-8">
+      Convert currencies instantly with a modern and beautiful experience.
+    </p>
+
+    <!-- Button -->
+    <a href="./pages/home.html"
+      class="inline-flex items-center justify-center w-full py-4 rounded-2xl bg-white text-indigo-600 font-semibold text-lg shadow-lg hover:scale-105 hover:bg-gray-100 transition duration-300">
+      Get Started →
+    </a>
+
+  </div>
+
+</body>
+
+</html>
